@@ -5,12 +5,28 @@
 #include <cstdlib>
 #include <ctime>
 #include <string>
-
 using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
+const int MAX_TRIES = 5;
+
+int Fill(char, string, string&) {
+
+}
+
+int main() {
+	system("COLOR B0");
+	string name;
+	char letter;
+	int wrong_guess = 0;
+	string word;
+	string words[] = {
+		"toyota",
+		"mazda",
+		"honda",
+		"bmw",
+		"proton",
+		"perodua"
+	};
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
