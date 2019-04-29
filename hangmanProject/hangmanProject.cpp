@@ -27,6 +27,14 @@ int main() {
 		"proton",
 		"perodua"
 	};
+
+	//choose and copy a word from array of words randomly
+	srand(time(NULL));
+	int n = rand() % 10;
+	word = words[n];
+
+	//initialize the secret word with the * character.
+	string unknown(word.length(), '*');
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
